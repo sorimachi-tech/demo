@@ -84,4 +84,4 @@ def getResGoogleRecord():
     return(jsonify(result=getOutput('record', 'google')))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=8501)
